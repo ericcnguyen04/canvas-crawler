@@ -73,7 +73,7 @@ const gameLoopInterval = setInterval(gameLoop, 60)
 const hero = new Crawler(5, 5, 25, 25, 'hotpink')
 const ogre = new Crawler(600, 75, 50, 75, 'green')
 const wall = new Crawler(300, 0, 75, 250, 'blue')
-const pressedKeys = {}
+const pressedKeys = {} 
 
 // NUM 2) find a way to handle user input to move our hero around
 function handleMovement(speed) {
